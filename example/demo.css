@@ -1,0 +1,48 @@
+.mask {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.content {
+  position: fixed;
+  z-index:5000;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width: px2rem(320px);
+  padding: px2rem(36px) 0;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.06);
+  border-radius: px2rem(12px);
+  background-color:#ffffff;
+  text-align:center;
+  .title {
+    font-family: PingFangSC-Semibold;
+    font-size: px2rem(15px);
+    color: #333333;
+    letter-spacing: 0.6px;
+    text-align: center;
+    line-height: px2rem(15px);
+    margin-bottom: px2rem(12px);
+  }
+  .msg {
+    font-family: PingFangSC-Regular;
+    font-size: px2rem(14px);
+    color: #666666;
+    text-align: center;
+    line-height: px2rem(21px);
+    margin-bottom: px2rem(24px);
+    padding:0 px2rem(18px);
+  }
+  .btn-confirm {
+    margin: 0 auto;
+    width: px2rem(114px);
+    height: px2rem(36px);
+    &.cancel {
+      margin-right: px2rem(12px);
+    }
+  }
+}
