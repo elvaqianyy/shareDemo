@@ -5,12 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:file":"jest test/equal1.test.js"
+    "test:file": "jest test/alert.test.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "jest": "25.x"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
   }
 }
