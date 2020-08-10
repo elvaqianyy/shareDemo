@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:file": "jest test/equal1.test.js"
+    "test:file": "jest test/snapshot.test.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,8 @@
   "devDependencies": {
     "@babel/core": "^7.11.1",
     "@babel/preset-env": "^7.11.0",
+    "@vue/cli-plugin-unit-jest": "^4.5.2",
+    "@vue/test-utils": "^1.0.3",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "jest": "25.x",
     "request": "^2.88.2"
