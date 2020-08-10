@@ -5,5 +5,10 @@ module.exports = {
       // 将.js后缀的文件使用babel-jest处理
       "^.+\\.js$": "babel-jest",
   },
-  transformIgnorePatterns: ["<rootDir>/node_modules/(?!(lodash-es|other-es-lib))"]
+  transformIgnorePatterns: ["<rootDir>/node_modules/(?!(lodash-es|other-es-lib))"],
+  // 覆盖率
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+      "lib/**/*.{js,vue}"
+  ],
 }
