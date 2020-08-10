@@ -46,3 +46,10 @@
 .content  .btn-confirm.cancel {
   margin-right: 12px;
 }
+.warn {
+  color: red;
+  font-weight: 700
+}
+.nowarn {
+  visibility: hidden;
+}
