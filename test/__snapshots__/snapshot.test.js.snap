@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`正确渲染 1`] = `<div id="nav" href="https://www.baidu1.com"><a>hello world</a></div>`;

@@ -1,4 +1,3 @@
-
 import Toast from '../lib/showToast';
 
 describe('Toast', () => {

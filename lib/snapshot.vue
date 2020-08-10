@@ -1,6 +1,13 @@
 <template>
   <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <a :href="url">{{name}}</a>
     </div>
 </template>
+<script>
+export default {
+  props: {
+    name: String,
+    url: String
+  }
+}
+</script>

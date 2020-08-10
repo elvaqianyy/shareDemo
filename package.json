@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:file": "jest test/snapshot.test.js"
+    "test:file": "jest test/toast.test.js",
+    "test:snapshot": "jest test/snapshot.test.js -u"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,7 @@
   },
   "dependencies": {
     "vue": "^2.6.11",
-    "vue-jest": "^3.0.6"
+    "vue-jest": "^3.0.6",
+    "vue-template-compiler": "^2.6.11"
   }
 }
