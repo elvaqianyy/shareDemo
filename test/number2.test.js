@@ -6,10 +6,12 @@ describe('保留小数点', () => {
   })
     // test unit1
   test('6.1234保留两位小数后等于"6.12"', () => {
+    console.log('test1')
     expect(toFixedScale(6.1234, 2)).toBe('6.12')
   })
   // test unit2
   test('6.1234保留两位小数后等于6.12', () => {
+    console.log('test2')
     expect(toFixedScale(6.1234, 2)).toBe(6.12)
   })
   afterAll(() => {

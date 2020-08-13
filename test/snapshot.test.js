@@ -5,7 +5,7 @@ it('正确渲染', () => {
   const wrapper = shallowMount(Snapshot, {
     propsData: {
       href: 'https://www.baidu1.com',
-      name: 'hello world'
+      name: 'hello world1234444'
     }
   })
   expect(wrapper).toMatchSnapshot()

@@ -7,8 +7,8 @@ module.exports = {
   },
   transformIgnorePatterns: ["<rootDir>/node_modules/(?!(lodash-es|other-es-lib))"],
   // 覆盖率
-  // "collectCoverage": true,
-  // "collectCoverageFrom": [
-  //     "lib/**/*.{js,vue}"
-  // ],
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+      "lib/**/*.{js,vue}"
+  ],
 }
