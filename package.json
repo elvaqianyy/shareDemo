@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:file": "jest test/number.test.js",
+    "test:file": "jest test/toast.test.js",
     "test:snapshot": "jest test/snapshot.test.js -u"
   },
   "keywords": [],

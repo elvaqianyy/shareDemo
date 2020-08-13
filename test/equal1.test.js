@@ -1,9 +1,9 @@
 import '../lib/equal1'
 test('0是否为null', () => {
-  const zero = 0
+  let zero = 0
   expect(zero).toBeNull()
 })
-test.only('链接是否为百度', () => {
+test.skip('链接是否为百度', () => {
   const item = {
     url: 'https://www.baidu.com',
     title: 'some-title'

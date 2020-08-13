@@ -5,19 +5,19 @@ test('6.1234保留两位小数，等于数字6.12', () => {
 })
 
 
-// test('两个数组相等:toBe', () => {
-//   const a = [1,2,3]
-//   const b = [1,2,3]
-//   expect(a).toBe(b)
-// })
+test('两个数组相等:toBe', () => {
+  const a = [1,2,3]
+  const b = [1,2,3]
+  expect(a).toBe(b)
+})
 
-test('两个数组相等:toEqual', () => {
+test.skip('两个数组相等:toEqual', () => {
   const a = [1,2,3]
   const b = [1,2,3]
   expect(a).toEqual(b)
 })
 
-test('两个对象相等:toEqual', () => {
+test.skip('两个对象相等:toEqual', () => {
   const a = {
     name: 'animal',
     eat: function () {}
