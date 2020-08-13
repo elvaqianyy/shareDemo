@@ -6,7 +6,7 @@ describe('Toast', () => {
     toastDom = new Toast({title: '提示', content:'你确定删除嘛？', warn: true})
   });
 
-  test('create', () => {
+  test.only('create', () => {
     expect(document.querySelector('.content .title').textContent).toEqual('提示');
   });
   test('create warn', () => {
